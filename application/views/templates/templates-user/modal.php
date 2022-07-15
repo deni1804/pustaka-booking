@@ -4,7 +4,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title">Login Member</h5>
-                <button type="button" class="close" data-dismis="modal" aria-label="close">
+                <button type="button" class="close" data-dismiss="modal" aria-label="close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-secondary" data-dismis="modal">Close</button>
+                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
                     <button type="submit" class="btn btn-outline-primary">Log in</button>
                 </div>
             </form>
@@ -39,7 +39,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title">Daftar Anggota</h5>
-                <button type="button" class="close" data-dismis="modal" aria-label="close">
+                <button type="button" class="close" data-dismiss="modal" aria-label="close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
@@ -63,7 +63,7 @@
                 </div>
 
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-secondary" data-dismis="modal">Close</button>
+                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
                     <button type="submit" class="btn btn-outline-primary">Simpan</button>
                 </div>
             </form>
@@ -73,4 +73,22 @@
 <!-- end modal daftar -->
 
 <!-- modal info -->
-<div class="modal fade" tabindex="-1" id=""></div>
+<div class="modal fade" tabindex="-1" id="modalinfo" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Informasi</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <span class="alert alert-message alert-success">Waktu Pengambilan Buku 1x24 jam dari Booking!!!</span>
+            </div>
+            <div class="modal-footer">
+                <a class="btn btn-outline-info" href="<?= base_url(); ?>">Ok</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end modal info -->
